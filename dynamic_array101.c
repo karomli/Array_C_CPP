@@ -10,7 +10,7 @@ int main(void) {
 	scanf("%d", &size);
 
 	if(size > 0)
-		data = malloc(sizeof(size));
+		data = malloc(size * sizeof(int));
 	else {
 		printf("array size is 0\n");
 		return 1;
